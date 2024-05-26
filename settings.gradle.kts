@@ -1,0 +1,38 @@
+val localPropertiesFile = rootDir.resolve("local.properties")
+if (localPropertiesFile.exists()) {
+    val localProperties = java.util.Properties()
+    localPropertiesFile.inputStream().use {
+        localProperties.load(it)
+    }
+    localProperties.forEach { (key, value) ->
+        extra[(key as String)] = value as String
+    }
+}
+
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = uri("https://api.mapbox.com/downloads/v2/releases/maven")
+            credentials.username = "mapbox"
+            credentials.password = providers.gradleProperty("MAPBOX_DOWNLOADS_TOKEN").get()
+            authentication.create<BasicAuthentication>("basic")
+        }
+    }
+}
+
+
+
+rootProject.name = "Havprosjekt"
+include(":app")

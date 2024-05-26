@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Havprosjekt</string>
+    <string name="mapbox_access_token" translatable="false" tools:ignore="UnusedResources">pk.eyJ1IjoidGhvbWFzYW5kZXJzciIsImEiOiJjbHZhd203NXEwMzgzMm9wYjdxcGN5YWRtIn0.oJ9I8Iq36pGQApZX8qYhlg</string>
+</resources>
