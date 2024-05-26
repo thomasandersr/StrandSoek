@@ -30,6 +30,7 @@ Modelleringsskisse finner du [her](https://github.uio.no/IN2000-V24/team-40/blob
 - **OceanForecast** for badevannsdata
 - **LocationForecast** for værdata
 - **MetAlerts** for farevarsler
+- **Kartverket** for fylkedata
 - **Dokka** for dokumentasjon
 
 ## Installasjon
