@@ -2,11 +2,11 @@
 
 Dette er en applikasjon for å finne badeplasser i rundt om i norge og få informasjon om vann, temperatur, vær, og farevarsler. Appen er utviklet i Kotlin med Jetpack Compose for brukergrensesnitt. 
 
-Dokumentasjon finner du [her](https://pages.github.uio.no/audunpo/team-40-docs/)
+Dokumentasjon finner du [her]()
 
-Arkitekturskisse finner du [her](https://github.uio.no/IN2000-V24/team-40/tree/main/src/Dataflyt.png)
+Arkitekturskisse finner du [her]()
 
-Modelleringsskisse finner du [her](https://github.uio.no/IN2000-V24/team-40/blob/main/MODELING.md)
+Modelleringsskisse finner du [her]()
 
 ## Funksjoner
 
